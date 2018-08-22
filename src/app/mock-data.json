@@ -1,0 +1,10 @@
+{ "projects": [{
+    "title": "Potato Salad",
+    "founders": ["random author"],
+    "description": "A fundraiser to get money to make potato salad",
+    "donors": ["random person 1", "random person's friend"],
+    "categories": ["for-profit", "food"],
+    "amountToRaise": 10000,
+    "amountRaised": 10
+    }]
+}
