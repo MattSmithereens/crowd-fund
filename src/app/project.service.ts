@@ -9,4 +9,9 @@ export class ProjectService {
   constructor(private database: AngularFireDatabase) {
     this.projects = database.list('projects');
   }
+
+  getProjects(){
+    return this.projects;
+  }
+
 }
