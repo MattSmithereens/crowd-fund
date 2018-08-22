@@ -1,3 +1,4 @@
 <p>
-  projects-details works!
+  {{projectToDisplay?.title | uppercase}} needs ${{(projectToDisplay?.amountToRaise - projectToDisplay?.amountRaised)}} more dollars to reach its goal of {{projectToDisplay?.amountToRaise}}!
+  <!-- {{projectToDisplay?.title}} -->
 </p>

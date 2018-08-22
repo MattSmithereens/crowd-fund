@@ -1,6 +1,7 @@
 <h2>Campaigns!</h2>
 <div *ngFor="let project of projects | async" class="panel panel-default">
-  <div class="panel-body">
+
+  <div class="panel-body" (click)="goToDetailPage(project);">
     <h3>{{project.title | uppercase}} needs ${{(project.amountToRaise - project.amountRaised)}}!</h3>
   </div>
 </div>
